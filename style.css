@@ -29,6 +29,7 @@ body {
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+  width: 100%;
 }
 
 .header {
@@ -406,20 +407,48 @@ span {
   html {
     font-size: 55%;
   }
+
+  section {
+    padding: 5rem 3% 2rem;
+  }
+
+  .home-img img {
+    width: 23vw;
+    /* margin-bottom: 2rem; */
+    align-items: center;
+  }
+
+  .about img {
+    width: 25vw;
+    margin-top: 3rem;
+  }
+
 }
 
 @media (max-width: 991px) {
+  html {
+    font-size: 45%;
+  }
+
   .header {
     padding: 2rem 2%;
     position: absolute;
   }
 
-  .about {
-    width: 100%;
+  .home-img img {
+    width: 35vw;
+    margin-top: 4rem;
+    align-items: center;
   }
+
+    .about img {
+      width: 35vw;
+      margin-top: 3rem;
+    }
 
   section {
     padding: 5rem 3% 2rem;
+    width: 100%;
   }
 
   .services {
@@ -518,6 +547,10 @@ span {
     font-size: 50%;
   }
 
+  .home-img img {
+    width: 60vw;
+  }
+
   #menu-icon {
     display: block;
     margin-right: 5rem;
@@ -530,11 +563,11 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 90vw;
+    width: 60vw;
   }
 
   .about-img img {
-    width: 90vw;
+    width: 60vw;
   }
 
   .footer {
